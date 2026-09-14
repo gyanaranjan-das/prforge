@@ -1,0 +1,14 @@
+# dependencies
+node_modules/
+__pycache__/
+*.pyc
+.env
+.env.*
+
+# logs / scratch
+*.log
+.DS_Store
+
+# agent workspace artifacts (cloned repos, patches)
+/workspace/repos/
+/workspace/runs/
